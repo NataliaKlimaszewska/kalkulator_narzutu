@@ -1,0 +1,5 @@
+{
+  "name": "Kalkulator Narzutu",
+  "description": "Prosty kalkulator do obliczania ceny po narzucie na podstawie ceny brutto i procentu narzutu.",
+  "requestFramePermissions": []
+}

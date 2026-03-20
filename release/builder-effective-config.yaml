@@ -1,0 +1,21 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.kalkulator.narzutu
+productName: Kalkulator Narzutu
+asar: true
+win:
+  target:
+    - nsis
+    - portable
+  icon: public/favicon.ico
+nsis:
+  oneClick: true
+  allowToChangeInstallationDirectory: false
+  createDesktopShortcut: true
+files:
+  - filter:
+      - dist/**/*
+      - electron-main.js
+      - package.json
+electronVersion: 31.7.7
